@@ -19,3 +19,23 @@ Using the "style" attribute in the "img" tag, I was able to adjust the image siz
 Through Google, I learned how to make half signs in HTML.
 
 In git, the project is imported into Github using the push command.
+
+/************************* ODIN RECIPES PROJECT UPDATED *************************/
+Following are the steps involved in updating the Odin Recipes website:
+
+A svg logo, published by mindaslab in 2019, was downloaded from the website;
+https://freesvg.org/chef.
+
+Favicon is generated with the help of the website;
+https://realfavicongenerator.net/svg-favicon/.
+
+Utilized FlexBox and CSS to create layout.
+
+The github icon code was downloaded from the website;
+https://fontawesome.com/.
+
+Watched this tutorial to create a Hamburger menu;
+https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1432s.
+
+Watched the tutorial to learn about media queries;
+https://www.youtube.com/watch?v=yU7jJ3NbPdA.
