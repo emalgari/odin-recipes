@@ -4,16 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food recipes</title>
+    <script
+      src="https://kit.fontawesome.com/ccc2edd016.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>The Odin Recipes</title>
   </head>
   <body>
-    <h1>Tasty Recipes</h1>
-    <h2>List of Content</h2>
-    <ul>
-      <li><a href="./pages/haleem.html">Haleem</a></li>
-      <li><a href="./pages/pumpking-pudding.html">Pumpkin Pudding</a></li>
-      <li><a href="./pages/tumeric-sauce.html">Sos Abba(Tumeric Sauce)</a></li>
-      <li><a href="./pages/takhari-rice.html">Takhari Rice Pudding</a></li>
-    </ul>
+    <nav class="header">
+      <a class="logo" href="./index.html"
+        ><img src="./images/logo.svg" alt="logo" />Odin Recipes
+      </a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/recipes.html">Recipes</a></li>
+        <li>
+          <a href="https://github.com/emalgari/odin-recipes" target="_blank"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="main">
+      <div class="welcome">
+        <h1>
+          Welcome to the:
+          <br /><span>Odin Recipes!</span>
+        </h1>
+        <br />
+        <article>
+          <q>
+            A recipe has no soul. You, as the cook, must bring soul to the
+            recipe.
+          </q>
+          <p>–Thomas Keller</p>
+          <cite>https://www.sophisticatedgourmet.com/food-quotes/</cite>
+        </article>
+      </div>
+    </section>
+    <footer>
+      2022<sup>&copy;</sup>-The Odin Recipes project by Saddam follow
+      &#x27A4;&#x27A4; &nbsp;<i class="fa-brands fa-github"></i
+      >&nbsp;github.com/emalgari
+    </footer>
   </body>
 </html>

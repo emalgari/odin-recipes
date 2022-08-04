@@ -4,45 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sos Abba</title>
+    <script
+      src="https://kit.fontawesome.com/ccc2edd016.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../images/favicon/favicon.svg"
+    />
+    <link rel="icon" type="image/png" href="../images/favicon/favicon.png" />
+    <title>Tumeric Sauce</title>
   </head>
   <body>
-    <h1>Sos Abba (Tumeric Sauce)</h1>
-    <img
-      style="height: 300px; width: 360px"
-      src="../images/tumeric-sauce.jpg"
-      alt="Tumeric Sauce"
-    />
-    <h2>Ingredients</h2>
-    <ul>
-      <li>Oil 175ml</li>
-      <li>Flour 300g</li>
-      <li>Water 1Liter</li>
-      <li>Black pepper &#189; tsp</li>
-      <li>Tumeric powder &#189; tsp</li>
-    </ul>
-    <h2>Method</h2>
-    <ol>
-      <li><p>Heat the oil in a pot on medium heat.</p></li>
-      <li>
-        <p>
-          Add flour to the hot oil and fry it. Keep stirring constantly, while
-          frying to avoid burning the flour.
-        </p>
-      </li>
-      <li>
-        <p>
-          Add water, tumeric powder and black pepper to the flour and let it
-          cook for &#189; hour.
-        </p>
-      </li>
-      <li>
-        <p>
-          The dish is ready to serve. May be served as a sauce spooned over rice
-          or over the meat.
-        </p>
-      </li>
-    </ol>
-    <a href="../index.html">Back to Home</a>
+    <header>
+      <nav class="header">
+        <a class="logo" href="../index.html"
+          ><img src="../images/logo.svg" alt="logo" />Odin Recipes
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./recipes.html">Recipes</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="page-title">
+      <img src="../images/tumeric-sauce.jpg" alt="Tumeric Sauce-pic" />
+      <h2>Tumeric Sauce</h2>
+    </div>
+    <div class="container">
+      <section class="recipe">
+        <div class="table">
+          <table>
+            <tr>
+              <th>
+                <h2 style="font-size: 30px; color: black; text-align: center">
+                  Ingredients
+                </h2>
+              </th>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th>Items</th>
+              <th>Quantity</th>
+            </tr>
+            <tr>
+              <td>Oil</td>
+              <td>175ml</td>
+            </tr>
+            <tr>
+              <td>Flour</td>
+              <td>300g</td>
+            </tr>
+            <tr>
+              <td>Water</td>
+              <td>1 Liter</td>
+            </tr>
+            <tr>
+              <td>Black pepper</td>
+              <td>&#189; tsp</td>
+            </tr>
+            <tr>
+              <td>Tumeric powder</td>
+              <td>&#189; tsp</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="direction">
+        <h2 style="font-size: 30px; color: black; text-align: left">
+          Direction:
+        </h2>
+        <br />
+        <ol>
+          <li><p>Heat the oil in a pot on medium heat.</p></li>
+          <li>
+            <p>
+              Add flour to the hot oil and fry it. Keep stirring constantly,
+              while frying to avoid burning the flour.
+            </p>
+          </li>
+          <li>
+            <p>
+              Add water, tumeric powder and black pepper to the flour and let it
+              cook for &#189; hour.
+            </p>
+          </li>
+          <li>
+            <p>
+              The dish is ready to serve. May be served as a sauce spooned over
+              rice or over the meat.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </div>
+    <footer>
+      2022<sup>&copy;</sup>-The Odin Recipes project by Saddam follow
+      &#x27A4;&#x27A4; &nbsp;<i class="fa-brands fa-github"></i
+      >&nbsp;github.com/emalgari
+    </footer>
   </body>
 </html>
