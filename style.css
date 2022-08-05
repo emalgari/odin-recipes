@@ -171,7 +171,9 @@ a{
     text-align: center;
   }
   h3{
-    display:none;
+    /*display:none;*/
+    color: transparent;
+    margin-top: -66px;
   }
   h4{
     margin: 0;
