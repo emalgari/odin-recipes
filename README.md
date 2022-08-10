@@ -21,6 +21,7 @@ Through Google, I learned how to make half signs in HTML.
 In git, the project is imported into Github using the push command.
 
 /************************* ODIN RECIPES PROJECT UPDATED *************************/
+
 Following are the steps involved in updating the Odin Recipes website:
 
 A svg logo, published by mindaslab in 2019, was downloaded from the website;
