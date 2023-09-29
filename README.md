@@ -23,7 +23,7 @@ To set up this project locally and start working on it, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone git@github.com:yourusername/odin-recipes.git
+   git clone git@github.com:emalgari/odin-recipes.git
 
 Ensure you're using SSH for cloning.
 
